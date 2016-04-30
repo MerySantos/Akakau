@@ -1,0 +1,13 @@
+Requerimientos Funcionales
+	- La pagina debe transmitir el esfuerzo y la dedicacion que ponen 
+	en la produccion del cacao.
+	- Se desea informar y posicionar su marca.
+	- Dar a conocer eventos donde participan junto a su combi.
+	- El objetivo final es proporcionar la informacion de contacto 
+	a personas interesadas en conocer o consumir alguno de sus
+	productos.
+	
+
+Requerimientos No-Funcionales
+	- definir clientes.
+
