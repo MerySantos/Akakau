@@ -1,6 +1,6 @@
 /*Global*/
 *{
-	font-family: "OpenSans-Light" Helvetica;
+	font-family: "Arial" ;
 }
 
 @font-face{
@@ -18,7 +18,8 @@
 
 /* Shortcuts */
 .p-ab{position: absolute;}
-
+.medidasContenedor{ width:100vw; height: 100vh; }
+.listaNormal{ list-style-type: disc; }
 
 .pd-0 {
 	padding: 0;
@@ -95,7 +96,7 @@
 .text-yellow{
 	color: #fac60e;
 }
-.bg-img-block{
+.bgBlock{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;

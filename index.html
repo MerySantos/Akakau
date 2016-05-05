@@ -1,40 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
 <!-- falta transiciones de a -->
-	<meta charset="UTF-8">
+	<meta charset="UTF-8" />
 	<title>Akakau</title>
 	<link rel="stylesheet" href="css/grid-system.css">
 	<link rel="stylesheet" href="css/utilities.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-</head>
-<body>
-<div class="container-principal"> <!-- Contenedor General -->
-	<div id="inicio" class="imghero"> <!-- index -->
-		<div class="nav">
-			<ul class="text-center text-white">
-				<li><a class="text-white" href="index.html#historia">Historia</a></li>
-				<li><a class="text-white"href="index.html#productos">Productos</a></li>
-				<li><a class="text-white" href="index.html#bistro">Bistró</a></li>
-				<li><a class="text-white" href="index.html#inicio"> <img class="medida-logo"src="img/iso.png" alt="logo Akakau"> </a></li>
-				<li> <a class="text-white" href="index.html#galeria">Galería</a></li>
-				<li> <a  class="text-white"href="index.html#cultura">Cultura</a></li> <!-- lleva a Eleonor y actividades culturales. -->
-				<li><a class="text-white" href="index.html#contacto">Contacto</a></li>
-			</ul>
-		 </div>
 
-		 <p class="text-center titulo text-white"> AKAKAU</p>
-		 <i class="fa fa-chevron-down arrow-down" aria-hidden="true"></i>
+
+<!-- galeria -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Effect inspiration for opening an image grid item." />
+	<meta name="keywords" content="image grid, effect, inspiration, css, javascript, animation, masonry" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/style4.css" />
+	<script src="js/modernizr-custom.js"></script>
+</head>
+
+<body >
+<div class="container-principal"> <!-- Contenedor General -->
+	<div id="inicio" class="medidasContenedor imghero"> <!-- index -->
+		<div class="nav"> <!-- menu -->
+			<ul class="text-center ">
+				<li><a class="text-white" href="index.html#historia">  Historia</a></li>
+				<li> <i class="fa fa-circle" aria-hidden="true"></i><a class="text-white"href="index.html#productos">Productos</a></li>
+				<li> <i class="fa fa-circle" aria-hidden="true"></i><a class="text-white" href="index.html#bistro">Bistró</a></li>
+				<!-- <li><a class="text-white" href="index.html#inicio"> <img class="medida-logo"src="img/iso.png" alt="logo Akakau"> </a></li> -->
+				<li> <i class="fa fa-circle" aria-hidden="true"></i><a class="text-white" href="index.html#galeria">Galería</a></li>
+				<li><i class="fa fa-circle" aria-hidden="true"></i> <a  class="text-white"href="index.html#cultura">Cultura</a></li> <!-- lleva a Eleonor y actividades culturales. -->
+				<li> <i class="fa fa-circle" aria-hidden="true"></i><a class="text-white" href="index.html#contacto">Contacto</a></li>
+			</ul>
+		</div> <!-- fin menu -->
+
+		<div class="arrowdown text-center"><i class="fa fa-sort-desc  text-center" aria-hidden="true"></i> </div>
 	</div>
 
-	<div id="historia" class="historia"> <!-- Historia -->
-		<div class="nav"> <!-- MENU -->
+	<div id="historia" class="historia medidasContenedor bgHistoria "> <!-- Historia -->
+		<div class="nav menuHover"> <!-- MENU -->
 			<ul class="text-center text-white">
 				<li><a class="text-white" href="index.html#historia">Historia</a></li>
 				<li><a class="text-white"href="index.html#productos">Productos</a></li>
 				<li><a class="text-white" href="index.html#bistro">Bistró</a></li>
-				<li><a class="text-white" href="index.html#inicio"> <img class="medida-logo"src="img/iso.png" alt="logo Akakau"> </a></li>
+
+				<!-- <li><a class="text-white" href="index.html#inicio"> <img class="medida-logo"src="img/iso.png" alt="logo Akakau"> </a></li> -->
 				<li> <a class="text-white" href="index.html#galeria">Galería</a></li>
 				<li> <a  class="text-white"href="index.html#cultura">Cultura</a></li> <!-- lleva a Eleonor y actividades culturales. -->
 				<li><a class="text-white" href="index.html#contacto">Contacto</a></li>
@@ -42,124 +57,348 @@
 		</div>
 
 		<div  class="bg-historia"><!-- background imagen -->
-			<h3> "Un sueño de amor familiar" </h3>
-				<div class=" descripcion-historia div-1"> 
-				<h4> "Un sueño de amor familiar"  </h4>
-				<p> 
-					Akakau nace del sueño de Juan Carlos, ecologista, astrólogo, genio y naturista. El sembró este sueño en Pucallpa, al norte de Perú. Y junto a emprendimiento y talento de Blanca y Conrado  estamos presentes en Arequipa.
-					Akakau es una empresa familiar agrícola productora de cacao 100% orgánico, nuestras tierras son tratadas libres de químicos e industrialización desde la semilla, la siembra, la cosecha y transformación.
-					Nuestro principal objetivo llevar la calidad del cacao peruano a nuestra tierra natal Arequipa, produciendo artesanalmente derivados como pasta en barras, trufas, tablas y demás postres expuestos en nuestro bistró para el deleite de la comunidad realizados con amor.
+			<div class="iconos corazon"> 
+			<p>"Un sueño de amor familiar" </p>
+			<img src="img/iconos/historia/corazon1.png" width="50px" height="50px">
+			
+			</div>
+			<div class="iconos flor"> 
+			<img src="img/iconos/historia/flor1.png" width="50px" height="50px">
+			<p>"Semillas de ilusiones" </p>
+			</div>
+			<div class="iconos mano"> 
+			<img src="img/iconos/historia/mano1.png" width="50px" height="50px">
+			<p>"Sudor,esmero y perfección" </p>
+			</div>
+			<div class="iconos camion"> 
+			<img src="img/iconos/historia/camion1.png" width="50px" height="50px">
+			<p>"Travesía" </p>
+			</div>
+			<div class="iconos taza"> 
+			<p>"Amor y cariño a la mesa" </p>
+			<img src="img/iconos/historia/taza1.png" width="50px" height="50px">
+			
+			</div>
+		</div> 
 
-				En el año 2010
-				Todo empezó cuando Juan Carlos 
-				Gerente Creativo y de produccion: Blanca Aguilar.
-				Fundador: Juan Carlos Aguilar.
-				Gerente General:Conrado Aguilar.</p>
+	</div>
+
+	<div>
+		<h3> "Un sueño de amor familiar" </h3>
+					<div class=" descripcion-historia div-1"> 
+					<h4> "Un sueño de amor familiar"  </h4>
+					<p> 
+						Akakau nace del sueño de Juan Carlos, ecologista, astrólogo, genio y naturista. El sembró este sueño en Pucallpa, al norte de Perú. Y junto a emprendimiento y talento de Blanca y Conrado  estamos presentes en Arequipa.
+						Akakau es una empresa familiar agrícola productora de cacao 100% orgánico, nuestras tierras son tratadas libres de químicos e industrialización desde la semilla, la siembra, la cosecha y transformación.
+						Nuestro principal objetivo llevar la calidad del cacao peruano a nuestra tierra natal Arequipa, produciendo artesanalmente derivados como pasta en barras, trufas, tablas y demás postres expuestos en nuestro bistró para el deleite de la comunidad realizados con amor.
+
+					En el año 2010
+					Todo empezó cuando Juan Carlos 
+					Gerente Creativo y de produccion: Blanca Aguilar.
+					Fundador: Juan Carlos Aguilar.
+					Gerente General:Conrado Aguilar.</p>
+					</div>
+				<h3> "Semillas de ilusiones" </h3>
+					<div class=" descripcion-historia div-2"> 
+						<h4> "Semillas de ilusiones" </h4>
+						<p>Dicen que el cacao es el alimento de los dioses, por su calidad, sabor y beneficios. Tomando este pensamiento Juan Carlos, el fundador, decide enfocarse en tratar a esta semilla como un fruto de perfección, brindándole la tierra más pura para que descanse y germine. </p>
+					</div>
+				<h3> "Sudor,esmero y perfección" </h3>
+					<div class=" descripcion-historia div-3"> 
+							<h4> "Sudor,esmero y perfección" </h4>
+							<p> Luego de nuestra cosecha artesanal   para obtener las mazorcas de cacao se procede a la fermentación y secado,  y uno de los lugares ideales   es Pucallpa,  con la ayuda  de la comunidad se procede a limpiar y descascarillar  los granos del café para tostarlos y molerlos.</p>
+					</div>
+				<h3> "Travesía" </h3>
+					<div class=" descripcion-historia div-4"> 
+						<h4> "Travesía" </h4>
+						<p> El recorrido de nuestra materia prima es una travesía que produce ansias de tener el aroma más agradable en nuestras manos, empieza el embarque en Pucallpa y recorre la mitad de nuestro Perú, llegando a Arequipa para el goce de nuestros paisanos.</p>
+					</div>
+				<h3> "Amor y cariño a la mesa" </h3>
+					<div class=" descripcion-historia div-5"> 
+						<h4> "Amor y cariño a la mesa" </h4>
+						<p> Blanca Aguilar, nuestra artista Culinaria, se encarga de darle vida a la materia prima que producen las tierras de AKAKAU, ella realiza cada producto de forma artesanal  entregando alma y corazón para que nuestros clientes no solo se lleven un alimento sino una EXPERIENCIA </p>
+					</div> <!-- provisional -->
+	</div>
+
+	<div id="productos" class="productos"> <!-- Nuestros productos -->
+		<div class="nav"> <!-- MENU -->
+				<ul class="text-center text-white">
+					<li><a class="text-white" href="index.html#historia">Historia</a></li>
+					<li><a class="text-white"href="index.html#productos">Productos</a></li>
+					<li><a class="text-white" href="index.html#bistro">Bistró</a></li>
+					<li><a class="text-white" href="index.html#inicio"> <img class="medida-logo"src="img/iso.png" alt="logo Akakau"> </a></li>
+					<li> <a class="text-white" href="index.html#galeria">Galería</a></li>
+					<li> <a  class="text-white"href="index.html#cultura">Cultura</a></li> <!-- lleva a Eleonor y actividades culturales. -->
+					<li><a class="text-white" href="index.html#contacto">Contacto</a></li>
+				</ul>
+		</div>
+
+		<h2>Nuestros productos </h2>
+		<div class="container">
+			<div class="row"> <!-- Fila1 -->
+				<div class="col-6 tipoProd"> <!-- Trufas -->
+					<div class="prod1 imagenProd "> 
+						<h3 > Trufas </h3>
+					</div>
+					<div class="descrProd">
+						<p class="listaNormal text-center"> Migas del corazón complementados con sabores exquisitos.<br>
+								<ul class="listaNormal text-left">Variedades: 
+								<li class="listaNormal">Saborizadas( Café, Naranja, Crocante)</li>
+								<li class="listaNormal">Trufas Pop.</li>
+								<li class="listaNormal">Trufas Veganas.</li>
+								<li class="listaNormal">Crocante.</li>
+							</ul>
+						</p>
+					</div>
+					<!-- <div class="triangulo"> Trufas </div> <!-- Trufas -->
 				</div>
-			<h3> "Semillas de ilusiones" </h3>
-				<div class=" descripcion-historia div-2"> 
-					<h4> "Semillas de ilusiones" </h4>
-					<p>Dicen que el cacao es el alimento de los dioses, por su calidad, sabor y beneficios. Tomando este pensamiento Juan Carlos, el fundador, decide enfocarse en tratar a esta semilla como un fruto de perfección, brindándole la tierra más pura para que descanse y germine. </p>
+
+				<div class="col-6"> <!-- Nibs --> 
+					<div class=" prod2 imagenProd"> 
+						<h3 > Nibs </h3>
+					</div>
+					<div class="descrProd">
+						<p class="listaNormal text-center"> La manera mas orgánica de disfrutar el cacao<br>
+							<ul class="listaNormal text-left">Presentaciones: 
+								<li class="listaNormal">Bolsa de 50gr.</li>
+								<li class="listaNormal"> Bolsa de 100gr.</li>
+								<li class="listaNormal"> Bolsa de 250gr.</li>
+							</ul>
+						</p>
+					</div>
+				</div><!-- 1era fila -->
+			</div>
+
+			<div class="row"> <!-- 2da fila -->
+				<div class="col-6"> <!-- Barras -->
+					<div class=" prod3 imagenProd"> 
+						<h3 > Barras 100% Cacao </h3>
+					</div>
+					<div class="descrProd">
+						<p class="listaNormal text-center"> Pasta 100% pura para chocolate caliente que cobijará tu corazón<br>
+							<ul class="listaNormal text-left">Presentaciones: 
+								<li class="listaNormal">Barra 100gr.</li>
+							</ul>
+						</p>
+					</div>
 				</div>
-			<h3> "Sudor,esmero y perfección" </h3>
-				<div class=" descripcion-historia div-3"> 
-						<h4> "Sudor,esmero y perfección" </h4>
-						<p> Luego de nuestra cosecha artesanal   para obtener las mazorcas de cacao se procede a la fermentación y secado,  y uno de los lugares ideales   es Pucallpa,  con la ayuda  de la comunidad se procede a limpiar y descascarillar  los granos del café para tostarlos y molerlos.</p>
+
+				<div class="col-6"> <!-- Tablas  --> 
+					
+					<div class=" prod5 imagenProd"> 
+						<h3 > Brownies</h3>
+					</div>
+					<div class=" descrProd">
+						<p class="listaNormal text-center"> Un trozito de cielo, húmedo y crocante hasta la última mordida.<br>
+							<ul class="listaNormal text-left">Presentaciones: 100gr
+							</ul>
+						</p>
+					</div>
 				</div>
-			<h3> "Travesía" </h3>
-				<div class=" descripcion-historia div-4"> 
-					<h4> "Travesía" </h4>
-					<p> </p>
+			</div>
+
+			<div class="row"> <!-- 3era fila -->
+				<div class="col-6"><!-- Brownies -->
+					<div class=" prod4 imagenProd"> 
+						<h3 > Tabletas 70% cacao</h3>
+					</div>
+
+					<div class="descrProd">
+						<p class="listaNormal text-center"> Para los más golosos y a los que nos gusta compartir, tabletas Akakau son recomendadas para tí.<br>
+							<ul class="listaNormal text-left">Presentaciones: 150gr<br> Sabores:
+								<li class="listaNormal">Crocante (Nueces, pecanas, castañas, coco, girasol, albaricoque)</li>
+								<li class="listaNormal">Café</li>
+								<li class="listaNormal">Coco</li>
+								<li class="listaNormal">Almendras</li>
+							</ul>
+						</p>
+					</div>
 				</div>
-			<h3> "Amor y cariño a la mesa" </h3>
-				<div class=" descripcion-historia div-5"> 
-					<h4> "Amor y cariño a la mesa" </h4>
-					<p> </p>
-				</div>
+
+				<div class="col-6"></div> <!-- 3era fila -->
+			</div>
 		</div> 
 	</div>
-</div> <!-- fin index -->
 
-<div id="productos" class="Productos"> <!-- Nuestros productos -->
-	<div class="nav"> <!-- MENU -->
-			<ul class="text-center text-white">
-				<li><a class="text-white" href="index.html#historia">Historia</a></li>
-				<li><a class="text-white"href="index.html#productos">Productos</a></li>
-				<li><a class="text-white" href="index.html#bistro">Bistró</a></li>
-				<li><a class="text-white" href="index.html#inicio"> <img class="medida-logo"src="img/iso.png" alt="logo Akakau"> </a></li>
-				<li> <a class="text-white" href="index.html#galeria">Galería</a></li>
-				<li> <a  class="text-white"href="index.html#cultura">Cultura</a></li> <!-- lleva a Eleonor y actividades culturales. -->
-				<li><a class="text-white" href="index.html#contacto">Contacto</a></li>
-			</ul>
+	<div class="container"> <!-- Mision y vision -->
 	</div>
-
-	Nuestros productos
-	<div class="row">
-		<div class="col-6">
-			<div class="triangulo"> Trufas </div> <!-- Trufas -->
-			<img src="  ">
-			<p> </p>
-
-			<p>Sabores: Amaretto, café, naranja, crocante.
-			Trufas pop
-			Trufas veganas
-			 </p> <!-- Trufas -->
-		</div>
-		<div class="col-6"> <!-- Nibs --> 
-			<div class="triangulo"> Nibs  </div> <!-- Trufas -->
-				100% cacao
-				<img src="  ">
-				<p> </p>
-
-				<p>Presentaciones: 50 gr.
-					100 gr.
-					250 gr.
-				</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-6"><!-- Barras -->
-			Barras 100% Cacao
-			<div class="triangulo"> Barras  </div> <!-- Trufas -->
-				<img src="  ">
-				<p> </p>
-
-				<p>Presentaciones: 100gr.
-				</p>
-		</div>
-		<div class="col-6"> <!-- Tablas  --> 
-		Tablas
-			<div class="triangulo"> Tablas 70% cacao  </div> <!-- Trufas -->
-				<img src="  ">
-				<p> </p>
-
-				<p>Presentaciones: 150gr.
-				Sabores: 
-					-Crocante (Nueces, pecanas, castañas,coco,girasol,albaricoques)
-					-Café
-					-Coco
-					-Almendras
-				</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-6"><!-- Brownies -->
-		Brownies
-			<div class="triangulo"> Brownies  </div> <!-- Trufas -->
-				<img src="  ">
-				<p> </p>
-
-				<p>Presentaciones: 100gr.
-				</p>
-		</div>
-		<div class="col-6">a</div>
-	</div>
-</div>
-
-<div class="container"> <!-- Mision y vision -->
 	
-</div>
-	
+	<div id="galeria" class="demo-4"> <!-- galeria -->
+		<div class="container">
+		
+			<div class="content">
+				<P>UN POQUITO MÁS DE NOSOTROS...VEN CONÓCENOS</P>
+				
+				<div class="grid">
+					
+					<div class="grid__item" data-size="1280x853">
+						<a href="img/foto01.jpg" class="img-wrap"><img src="img/foto01.jpg" alt="img08" />
+							<div class="description description--grid">UN SABOR ESPACIAL - TRUFA DE NARANJA</div>
+						</a>
+					</div>
+					
+					<div class="grid__item" data-size="865x1280">
+						<a href="img/foto02.jpg" class="img-wrap"><img src="img/foto02.jpg" alt="img09" />
+							<div class="description description--grid">CHOCOLATITO CALIENTE</div>
+						</a>
+					</div>
+					
+					<div class="grid__item" data-size="1280x1280">
+						<a href="img/foto03.jpg" class="img-wrap"><img src="img/foto03.jpg" alt="img10" />
+							<div class="description description--grid">FAMILIA AGUILAR - "EL SUEÑO FAMILIAR"</div>
+						</a>
+					</div>
+					
+					<div class="grid__item" data-size="1280x850">
+						<a href="img/foto04.jpg" class="img-wrap"><img src="img/foto04.jpg" alt="img11" />
+							<div class="description description--grid">LISTAS PARA ENGREIR TU PALADAR - TRUFAS</div>
+						</a>
+					</div>
+					
+					<div class="grid__item" data-size="1280x853">
+						<a href="img/foto05.jpg" class="img-wrap"><img src="img/foto05.jpg" alt="img01" />
+							<div class="description description--grid">WAFFLES CON FRUTA Y CHOCOLATE AKAKAU</div>
+						</a>
+					</div>
+					
+					<div class="grid__item" data-size="958x1280">
+						<a href="img/foto06.jpg" class="img-wrap"><img src="img/foto06.jpg" alt="img02" />
+							<div class="description description--grid">CASA BLANCA - CENTRO CULTURAL</div>
+						</a>
+					</div>
+					
+					<div class="grid__item" data-size="837x1280">
+						<a href="img/foto07.jpg" class="img-wrap"><img src="img/foto07.jpg" alt="img03" />
+							<div class="description description--grid">NUESTRO HOGAR - LA FABRICA DE AMOR</div>
+						</a>
+					</div>
+					
+					<div class="grid__item" data-size="1280x961">
+						<a href="img/foto08.jpg" class="img-wrap"><img src="img/foto08.jpg" alt="img04" />
+							<div class="description description--grid">DELICIOSOS BROWNIES </div>
+						</a>
+					</div>
+					
+					<div class="grid__item" data-size="1280x1131">
+						<a href="img/foto09.jpg" class="img-wrap"><img src="img/foto09.jpg" alt="img05" />
+							<div class="description description--grid">NUESTRO MAYOR ORGULLO -  TRUFAS</div>
+						</a>
+					</div>
+					
+					<div class="grid__item" data-size="1280x857">
+						<a href="img/foto10.jpg" class="img-wrap"><img src="img/foto10.jpg" alt="img06" />
+							<div class="description description--grid">CREPPES CALIENTITOS</div>
+						</a>
+					</div>
+					
+					<div class="grid__item" data-size="1280x1280">
+						<a href="img/foto11.jpg" class="img-wrap"><img src="img/foto11.jpg" alt="img07" />
+							<div class="description description--grid">ENGRÍETE</div>
+						</a>
+					</div>
+					
+					<div class="grid__item" data-size="1280x853">
+						<a href="img/foto12.jpg" class="img-wrap"><img src="img/foto12.jpg" alt="img08" />
+							<div class="description description--grid">EXPOSICIÓN CULTURAL </div>
+						</a>
+					</div>
+					
+
+				</div>
+				<!-- /grid -->
+				<div class="preview">
+					<button class="action action--close"><i class="fa fa-times"></i><span class="text-hidden">Close</span></button>
+					<div class="thumbs">
+						<button class="action action--nav action--navprev"><i class="fa fa-chevron-left"></i><span class="text-hidden">Previous</span></button>
+						<img src="img/foto01.jpg" alt="01" />
+						<img src="img/foto02.jpg" alt="02" />
+						<img src="img/foto03.jpg" alt="03" />
+						<img src="img/foto04.jpg" alt="04" />
+						<img src="img/foto05.jpg" alt="05" />
+						<img src="img/foto06.jpg" alt="06" />
+						<img src="img/foto07.jpg" alt="07" />
+						<img src="img/foto08.jpg" alt="08" />
+						<img src="img/foto07.jpg" alt="09" />
+						<button class="action action--nav action--navnext"><i class="fa fa-chevron-right"></i><span class="text-hidden">Next</span></button>
+					</div>
+					<div class="description description--preview"></div>
+				</div>
+				<!-- /preview -->
+			</div>
+			<!-- /content -->
+		</div>
+		<!-- /container -->
+	</div> <!-- galeria -->
 </div>	<!-- fin del contenedor -->
+
+<!-- /java -->
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/masonry.pkgd.min.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		(function() {
+			var support = { transitions: Modernizr.csstransitions },
+				// transition end event name
+				transEndEventNames = { 'WebkitTransition': 'webkitTransitionEnd', 'MozTransition': 'transitionend', 'OTransition': 'oTransitionEnd', 'msTransition': 'MSTransitionEnd', 'transition': 'transitionend' },
+				transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
+				onEndTransition = function( el, callback ) {
+					var onEndCallbackFn = function( ev ) {
+						if( support.transitions ) {
+							if( ev.target != this ) return;
+							this.removeEventListener( transEndEventName, onEndCallbackFn );
+						}
+						if( callback && typeof callback === 'function' ) { callback.call(this); }
+					};
+					if( support.transitions ) {
+						el.addEventListener( transEndEventName, onEndCallbackFn );
+					}
+					else {
+						onEndCallbackFn();
+					}
+				};
+
+			new GridFx(document.querySelector('.grid'), {
+				imgPosition : {
+					x : 1,
+					y : -0.75
+				},
+				onOpenItem : function(instance, item) {
+					var win = {width: window.innerWidth, height: window.innerHeight};
+					instance.items.forEach(function(el) {
+						if(item != el) {
+							var delay = Math.floor(Math.random() * 130);
+							el.style.WebkitTransition = 'opacity .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1), -webkit-transform .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1)';
+							el.style.transition = 'opacity .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1), transform .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1)';
+							
+							var elOffset = el.getBoundingClientRect(),
+								elSize = {width : el.offsetWidth, height : el.offsetHeight};
+
+							el.style.WebkitTransform = 'translate3d(' + (win.width/2 - elOffset.left - elSize.width/2) + 'px,' + (win.height - elOffset.top - elSize.height/2) + 'px,0) scale3d(0,0,1)';
+							el.style.transform = 'translate3d(' + (win.width/2 - elOffset.left - elSize.width/2) + 'px,' + (win.height - elOffset.top - elSize.height/2) + 'px,0) scale3d(0,0,1)';
+							el.style.opacity = 0;
+						}
+					});
+				},
+				onCloseItem : function(instance, item) {
+					instance.items.forEach(function(el) {
+						if(item != el) {
+							el.style.WebkitTransition = 'opacity .3s, -webkit-transform .3s';
+							el.style.transition = 'opacity .3s, transform .3s';
+
+							el.style.WebkitTransform = 'translate3d(0,0,0) scale3d(1,1,1)';
+							el.style.transform = 'translate3d(0,0,0) scale3d(1,1,1)';
+							el.style.opacity = 1;
+
+							onEndTransition(el, function() {
+								el.style.transition = 'none';
+								el.style.WebkitTransform = 'none';
+							});
+						}
+					});
+				}
+			});
+		})();
+	</script>
 </body>
 </html>
